@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    border: 1px solid #000;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1{
+    width: 1100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo-text{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+}
+
+.part1-2{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-btn{
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    border: 1px solid #000000;
+}
+
+.start-btn{
+    width: 180px;
+    height: 40px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.part2{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.part2-1{
+    width: 200px;
+    height: 80px;
+}
+
+.part2-2{
+    width: 200px;
+    height: 80px;
+}
+
+.part2-3{
+    width: 200px;
+    height: 80px;
+}
+
+.part3{
+    width: 1100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part3-1{
+    width: 1000px;
+    height: 80px;
+}
+
+.part3-2{
+    width:1000px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+}
+
+.part3-3{
+    width: 1000px;
+    height: 80px;
+}
